@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="contenedor">
+            <h2>FORMULARIO DE REGISTRO</h2>
+            <form id="Registroformu">
+                <label>Nombre:</label>
+                <input type="text" id="nombre"name="formulario de registro" placeholder="Ingrese su nombre completo">
+                <div id="errornombre" class="error"></div>
+                <label>Email:</label>
+                <input type="email" id="correo"name="registro email" placeholder="Registro de email">
+                <div id="errorcorreo" class="error"></div>
+                <label>Contraseña:</label>
+                <input type ="password" id="password" name="contraseña" placeholder="Registre contraseña con minimo 8 caracteres">
+                <div id="errorpassword" class="error"></div>
+                <button type="submit">Registrar</button>
+            </form>
+            <div id="mensaje"></div>
+        </div>
+        <script src="LoginUsuario.js"></script>
+    </body>
+</html>
